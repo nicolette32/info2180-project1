@@ -1,4 +1,8 @@
 
+/* ==========================================================
+   INFO2180 Project 1 - Landing Page Styles
+   Healthy Lifestyle website for INFO2180 Labs
+   ========================================================== */
 body {
     margin: 0;
     font-size: 18px;
@@ -18,6 +22,10 @@ img {
     
 }
 
+/* ---------- Header ----------
+   White bar. Flexbox puts the site heading on the left and the
+   navigation links on the right, laid out horizontally with no bullets. */
+
 header {
     background-color: white;
     font-size: 18px;
@@ -35,6 +43,10 @@ header h1{
     font-size: 18px;
     margin: 0;
 }
+
+/* ---------- Navigation links ----------
+   Grey (#6b7280) links with no underline that turn purple
+   (#5A67D8) on :hover. */
 
 nav ul{
     margin: 0;
@@ -54,6 +66,10 @@ nav a{
 nav a:hover {
     color: #5A67D8;
 }
+
+/* ---------- Hero overview ----------
+   Light grey background. Flexbox places the image on the left
+   and the text on the right, each taking half the width. */
 
 .overview-hero{
     background-color:#E2E8F0;
@@ -76,6 +92,10 @@ nav a:hover {
     height: 250px;
     object-fit: contain;
 }
+/* ---------- Learn About ----------
+   Green (#48BB78) heading. CSS Grid lays the cards out in 3
+   equal columns. Each card has a light border, 5px rounded
+   corners and a soft box-shadow. */
 
 .learn-about {
     padding: 48px 0;
@@ -115,6 +135,10 @@ nav a:hover {
     color: #48BB78;
 }
 
+/* ---------- COVID-19 Testing ----------
+   Dark grey section with white text. Flexbox puts the heading and
+   paragraph on the left and the Learn More button on the right. */
+
 .testing{
     background-color: #4A5568;
     color: white;
@@ -141,6 +165,10 @@ nav a:hover {
     white-space: nowrap;
     text-transform: uppercase;
 }
+
+/* ---------- Recent Stories ----------
+   Purple (#5A67D8) heading and links. Each article is a flex row
+   with a circular 150px image on the left and the text beside it. */
 
 .stories {
     padding: 48px 0;
@@ -173,6 +201,10 @@ nav a:hover {
     font-size: 18px;
 }
 
+/* ---------- Newsletter ----------
+   Green section with centered white text. The form is a flex row
+   so the input and Subscribe button sit side by side. */
+
 .newsletter{
     background-color: #48BB78;
     color: white;
@@ -197,6 +229,9 @@ nav a:hover {
     width: 250px;
     border: none;
 }
+
+/* ---------- Message ----------
+   Area where scripts.js displays the subscription feedback. */
 
 .message{
     color: #9b1c1c;
